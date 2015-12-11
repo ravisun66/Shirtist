@@ -329,9 +329,17 @@
                                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ouq-kL-Bbu">
                                                     <rect key="frame" x="8" y="0.0" width="359" height="95"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                                    <state key="normal" title="Login"/>
+                                                    <connections>
+                                                        <action selector="logInOutTapped:" destination="wDb-ru-fZ0" eventType="touchUpInside" id="d5o-1g-rjJ"/>
+                                                    </connections>
+                                                </button>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N2w-gc-jij">
+                                                    <rect key="frame" x="8" y="0.0" width="359" height="95"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                                     <state key="normal" title="Logout"/>
                                                     <connections>
-                                                        <action selector="logoutTapped:" destination="wDb-ru-fZ0" eventType="touchUpInside" id="sTF-ct-SvS"/>
+                                                        <action selector="logInOutTapped:" destination="wDb-ru-fZ0" eventType="touchUpInside" id="B7c-in-t4g"/>
                                                     </connections>
                                                 </button>
                                             </subviews>
@@ -347,7 +355,8 @@
                     </tableView>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
-                        <outlet property="loginOutBtn" destination="Ouq-kL-Bbu" id="bfa-SR-kZj"/>
+                        <outlet property="login" destination="Ouq-kL-Bbu" id="nLz-NS-KGT"/>
+                        <outlet property="logout" destination="N2w-gc-jij" id="4EG-a2-chn"/>
                         <outlet property="myCustomizationBtn" destination="B1q-Ii-dsF" id="dUZ-Hl-hCV"/>
                         <outlet property="myOffersBtn" destination="AWf-iX-mjT" id="Jgl-QV-WQp"/>
                         <outlet property="myOrdersBtn" destination="3Ju-ax-GGr" id="1tN-hn-sKU"/>

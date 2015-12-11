@@ -18,10 +18,11 @@ class SettingsTableViewController: UITableViewController {
     @IBOutlet weak var myOrdersBtn: UIButton!
     
     
+    @IBOutlet weak var logout: UIButton!
     @IBOutlet weak var myOffersBtn: UIButton!
     
     
-    @IBOutlet weak var loginOutBtn: UIButton!
+    @IBOutlet weak var login: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -30,6 +31,23 @@ class SettingsTableViewController: UITableViewController {
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
+        
+        let isUserLoggedIn = NSUserDefaults.standardUserDefaults().boolForKey("isUserLoggedIn")
+        
+        if (!isUserLoggedIn)
+        {
+            mySizebtn.hidden = true
+            myOrdersBtn.hidden = true
+            myOffersBtn.hidden = true
+            myCustomizationBtn.hidden = true
+            logout.hidden = true
+        } else
+        {
+            login.hidden = true
+        }
+        
+        
+        
         tableView.tableFooterView = UIView()
     }
 
@@ -49,31 +67,13 @@ class SettingsTableViewController: UITableViewController {
         // #warning Incomplete implementation, return the number of rows
         return 5
     }
-
-    override func viewDidAppear(animated: Bool) {
-        
-        let isUserLoggedIn = NSUserDefaults.standardUserDefaults().boolForKey("isUserLoggedIn")
-        
-        if (!isUserLoggedIn)
-        {
-            mySizebtn.hidden = true
-            myOrdersBtn.hidden = true
-            myOffersBtn.hidden = true
-            myCustomizationBtn.hidden = true
-            loginOutBtn.titleLabel?.text = "Login"
-        }
-        
-    }
     
-    @IBAction func logoutTapped(sender: UIButton) {
+    
+    @IBAction func logInOutTapped(sender: UIButton) {
         
         if (sender.titleLabel?.text == "Login")
         {
-//            dispatch_async(dispatch_get_main_queue(), { () -> Void in
-//                let viewController:UIViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewControllerWithIdentifier("register")
-//                self.presentViewController(viewController, animated: true, completion: nil)
-//            })
-            
+
            let vc : AnyObject! = self.storyboard!.instantiateViewControllerWithIdentifier("register")
            self.showViewController(vc as! UIViewController, sender: vc)
             
