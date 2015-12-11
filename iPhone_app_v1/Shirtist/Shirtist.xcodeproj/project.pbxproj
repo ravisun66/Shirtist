@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC019E7D1C15ACF20093E031 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC019E7C1C15ACF10093E031 /* SettingsTableViewController.swift */; };
+		BC235F131C19AD9200334E45 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC235F121C19AD9100334E45 /* LoginViewController.swift */; };
+		BC235F151C19ADBB00334E45 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC235F141C19ADBB00334E45 /* RegisterViewController.swift */; };
+		BC3E33581C14A2D4008703E4 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3E33571C14A2D4008703E4 /* Users.swift */; };
+		BC3E335A1C14ADD7008703E4 /* HomePageTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3E33591C14ADD7008703E4 /* HomePageTableCell.swift */; };
+		BCD39F9E1C14971200159B94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD39F9D1C14971200159B94 /* AppDelegate.swift */; };
+		BCD39FA01C14971200159B94 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD39F9F1C14971200159B94 /* HomePageViewController.swift */; };
+		BCD39FA31C14971200159B94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCD39FA11C14971200159B94 /* Main.storyboard */; };
+		BCD39FA61C14971200159B94 /* Shirtist.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BCD39FA41C14971200159B94 /* Shirtist.xcdatamodeld */; };
+		BCD39FA81C14971200159B94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCD39FA71C14971200159B94 /* Assets.xcassets */; };
+		BCD39FAB1C14971200159B94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCD39FA91C14971200159B94 /* LaunchScreen.storyboard */; };
+		BCD39FB61C14971200159B94 /* ShirtistTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD39FB51C14971200159B94 /* ShirtistTests.swift */; };
+		BCD39FC11C14971200159B94 /* ShirtistUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD39FC01C14971200159B94 /* ShirtistUITests.swift */; };
+		BCE66C711C14BE27005AD244 /* ProductDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE66C701C14BE26005AD244 /* ProductDetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCD39FB21C14971200159B94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCD39F921C14971100159B94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCD39F991C14971100159B94;
+			remoteInfo = Shirtist;
+		};
+		BCD39FBD1C14971200159B94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCD39F921C14971100159B94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCD39F991C14971100159B94;
+			remoteInfo = Shirtist;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC019E7C1C15ACF10093E031 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		BC235F121C19AD9100334E45 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		BC235F141C19ADBB00334E45 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		BC3E33571C14A2D4008703E4 /* Users.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		BC3E33591C14ADD7008703E4 /* HomePageTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePageTableCell.swift; sourceTree = "<group>"; };
+		BCD39F9A1C14971200159B94 /* Shirtist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shirtist.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCD39F9D1C14971200159B94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BCD39F9F1C14971200159B94 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		BCD39FA21C14971200159B94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCD39FA51C14971200159B94 /* Shirtist.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shirtist.xcdatamodel; sourceTree = "<group>"; };
+		BCD39FA71C14971200159B94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCD39FAA1C14971200159B94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BCD39FAC1C14971200159B94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCD39FB11C14971200159B94 /* ShirtistTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShirtistTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCD39FB51C14971200159B94 /* ShirtistTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShirtistTests.swift; sourceTree = "<group>"; };
+		BCD39FB71C14971200159B94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCD39FBC1C14971200159B94 /* ShirtistUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShirtistUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCD39FC01C14971200159B94 /* ShirtistUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShirtistUITests.swift; sourceTree = "<group>"; };
+		BCD39FC21C14971200159B94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCE66C701C14BE26005AD244 /* ProductDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductDetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCD39F971C14971100159B94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD39FAE1C14971200159B94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD39FB91C14971200159B94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCD39F911C14971100159B94 = {
+			isa = PBXGroup;
+			children = (
+				BCD39F9C1C14971200159B94 /* Shirtist */,
+				BCD39FB41C14971200159B94 /* ShirtistTests */,
+				BCD39FBF1C14971200159B94 /* ShirtistUITests */,
+				BCD39F9B1C14971200159B94 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCD39F9B1C14971200159B94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCD39F9A1C14971200159B94 /* Shirtist.app */,
+				BCD39FB11C14971200159B94 /* ShirtistTests.xctest */,
+				BCD39FBC1C14971200159B94 /* ShirtistUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCD39F9C1C14971200159B94 /* Shirtist */ = {
+			isa = PBXGroup;
+			children = (
+				BCD39F9D1C14971200159B94 /* AppDelegate.swift */,
+				BCD39F9F1C14971200159B94 /* HomePageViewController.swift */,
+				BCD39FA11C14971200159B94 /* Main.storyboard */,
+				BCD39FA71C14971200159B94 /* Assets.xcassets */,
+				BCD39FA91C14971200159B94 /* LaunchScreen.storyboard */,
+				BCD39FAC1C14971200159B94 /* Info.plist */,
+				BCD39FA41C14971200159B94 /* Shirtist.xcdatamodeld */,
+				BC3E33571C14A2D4008703E4 /* Users.swift */,
+				BC3E33591C14ADD7008703E4 /* HomePageTableCell.swift */,
+				BCE66C701C14BE26005AD244 /* ProductDetailViewController.swift */,
+				BC019E7C1C15ACF10093E031 /* SettingsTableViewController.swift */,
+				BC235F121C19AD9100334E45 /* LoginViewController.swift */,
+				BC235F141C19ADBB00334E45 /* RegisterViewController.swift */,
+			);
+			path = Shirtist;
+			sourceTree = "<group>";
+		};
+		BCD39FB41C14971200159B94 /* ShirtistTests */ = {
+			isa = PBXGroup;
+			children = (
+				BCD39FB51C14971200159B94 /* ShirtistTests.swift */,
+				BCD39FB71C14971200159B94 /* Info.plist */,
+			);
+			path = ShirtistTests;
+			sourceTree = "<group>";
+		};
+		BCD39FBF1C14971200159B94 /* ShirtistUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BCD39FC01C14971200159B94 /* ShirtistUITests.swift */,
+				BCD39FC21C14971200159B94 /* Info.plist */,
+			);
+			path = ShirtistUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCD39F991C14971100159B94 /* Shirtist */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCD39FC51C14971200159B94 /* Build configuration list for PBXNativeTarget "Shirtist" */;
+			buildPhases = (
+				BCD39F961C14971100159B94 /* Sources */,
+				BCD39F971C14971100159B94 /* Frameworks */,
+				BCD39F981C14971100159B94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Shirtist;
+			productName = Shirtist;
+			productReference = BCD39F9A1C14971200159B94 /* Shirtist.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCD39FB01C14971200159B94 /* ShirtistTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCD39FC81C14971200159B94 /* Build configuration list for PBXNativeTarget "ShirtistTests" */;
+			buildPhases = (
+				BCD39FAD1C14971200159B94 /* Sources */,
+				BCD39FAE1C14971200159B94 /* Frameworks */,
+				BCD39FAF1C14971200159B94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCD39FB31C14971200159B94 /* PBXTargetDependency */,
+			);
+			name = ShirtistTests;
+			productName = ShirtistTests;
+			productReference = BCD39FB11C14971200159B94 /* ShirtistTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BCD39FBB1C14971200159B94 /* ShirtistUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCD39FCB1C14971200159B94 /* Build configuration list for PBXNativeTarget "ShirtistUITests" */;
+			buildPhases = (
+				BCD39FB81C14971200159B94 /* Sources */,
+				BCD39FB91C14971200159B94 /* Frameworks */,
+				BCD39FBA1C14971200159B94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCD39FBE1C14971200159B94 /* PBXTargetDependency */,
+			);
+			name = ShirtistUITests;
+			productName = ShirtistUITests;
+			productReference = BCD39FBC1C14971200159B94 /* ShirtistUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCD39F921C14971100159B94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Ravi Shankar Jha";
+				TargetAttributes = {
+					BCD39F991C14971100159B94 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 4VR9E53DT8;
+					};
+					BCD39FB01C14971200159B94 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = BCD39F991C14971100159B94;
+					};
+					BCD39FBB1C14971200159B94 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = BCD39F991C14971100159B94;
+					};
+				};
+			};
+			buildConfigurationList = BCD39F951C14971100159B94 /* Build configuration list for PBXProject "Shirtist" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCD39F911C14971100159B94;
+			productRefGroup = BCD39F9B1C14971200159B94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCD39F991C14971100159B94 /* Shirtist */,
+				BCD39FB01C14971200159B94 /* ShirtistTests */,
+				BCD39FBB1C14971200159B94 /* ShirtistUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCD39F981C14971100159B94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCD39FAB1C14971200159B94 /* LaunchScreen.storyboard in Resources */,
+				BCD39FA81C14971200159B94 /* Assets.xcassets in Resources */,
+				BCD39FA31C14971200159B94 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD39FAF1C14971200159B94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD39FBA1C14971200159B94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCD39F961C14971100159B94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC235F151C19ADBB00334E45 /* RegisterViewController.swift in Sources */,
+				BC3E33581C14A2D4008703E4 /* Users.swift in Sources */,
+				BC3E335A1C14ADD7008703E4 /* HomePageTableCell.swift in Sources */,
+				BCD39FA61C14971200159B94 /* Shirtist.xcdatamodeld in Sources */,
+				BCD39FA01C14971200159B94 /* HomePageViewController.swift in Sources */,
+				BC235F131C19AD9200334E45 /* LoginViewController.swift in Sources */,
+				BCD39F9E1C14971200159B94 /* AppDelegate.swift in Sources */,
+				BCE66C711C14BE27005AD244 /* ProductDetailViewController.swift in Sources */,
+				BC019E7D1C15ACF20093E031 /* SettingsTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD39FAD1C14971200159B94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCD39FB61C14971200159B94 /* ShirtistTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD39FB81C14971200159B94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCD39FC11C14971200159B94 /* ShirtistUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCD39FB31C14971200159B94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCD39F991C14971100159B94 /* Shirtist */;
+			targetProxy = BCD39FB21C14971200159B94 /* PBXContainerItemProxy */;
+		};
+		BCD39FBE1C14971200159B94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCD39F991C14971100159B94 /* Shirtist */;
+			targetProxy = BCD39FBD1C14971200159B94 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BCD39FA11C14971200159B94 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCD39FA21C14971200159B94 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BCD39FA91C14971200159B94 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCD39FAA1C14971200159B94 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCD39FC31C14971200159B94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BCD39FC41C14971200159B94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCD39FC61C14971200159B94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Shirtist/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Nishayu-labs-Shirtees";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		BCD39FC71C14971200159B94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Shirtist/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Nishayu-labs-Shirtees";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		BCD39FC91C14971200159B94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ShirtistTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Nishayu-Labs.ShirtistTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shirtist.app/Shirtist";
+			};
+			name = Debug;
+		};
+		BCD39FCA1C14971200159B94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ShirtistTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Nishayu-Labs.ShirtistTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shirtist.app/Shirtist";
+			};
+			name = Release;
+		};
+		BCD39FCC1C14971200159B94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ShirtistUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Nishayu-Labs.ShirtistUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Shirtist;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BCD39FCD1C14971200159B94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ShirtistUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Nishayu-Labs.ShirtistUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Shirtist;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCD39F951C14971100159B94 /* Build configuration list for PBXProject "Shirtist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCD39FC31C14971200159B94 /* Debug */,
+				BCD39FC41C14971200159B94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCD39FC51C14971200159B94 /* Build configuration list for PBXNativeTarget "Shirtist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCD39FC61C14971200159B94 /* Debug */,
+				BCD39FC71C14971200159B94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCD39FC81C14971200159B94 /* Build configuration list for PBXNativeTarget "ShirtistTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCD39FC91C14971200159B94 /* Debug */,
+				BCD39FCA1C14971200159B94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCD39FCB1C14971200159B94 /* Build configuration list for PBXNativeTarget "ShirtistUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCD39FCC1C14971200159B94 /* Debug */,
+				BCD39FCD1C14971200159B94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BCD39FA41C14971200159B94 /* Shirtist.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BCD39FA51C14971200159B94 /* Shirtist.xcdatamodel */,
+			);
+			currentVersion = BCD39FA51C14971200159B94 /* Shirtist.xcdatamodel */;
+			path = Shirtist.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BCD39F921C14971100159B94 /* Project object */;
+}
